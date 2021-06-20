@@ -1,0 +1,36 @@
+body {
+    background-image: url(Media/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("Fonts/Staatliches-Regular.ttf");
+  }
+
+.taskBoardTitle {
+    
+    font-family: myFirstFont;
+    font-style: bold;
+    color: darkblue;
+    text-align: center;
+}
+.noteBookDiv {
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    width: 1000px;
+
+    background-image: url(Media/Notebook.jpg);
+}
+img {
+    object-fit: cover;
+    vertical-align: middle;
+    object-position: 50%;
+}
+.textArea {
+    text-align: left;
+}
